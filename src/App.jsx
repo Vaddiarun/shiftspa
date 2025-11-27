@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
+import StickyCTA from './components/StickyCTA';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </main>
 
       <Footer />
+      <StickyCTA />
     </div>
   );
 }

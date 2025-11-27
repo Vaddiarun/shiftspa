@@ -51,9 +51,14 @@ const Hero = () => {
                         transition={{ delay: 0.8 }}
                         className="flex flex-wrap gap-4"
                     >
-                        <a href="#book" className="bg-primary text-white px-8 py-4 rounded-full font-medium hover:bg-primary/90 transition-transform hover:scale-105 shadow-xl shadow-primary/20">
-                            Book a Session
-                        </a>
+                        <motion.a
+                            href="#book"
+                            animate={{ scale: [1, 1.05, 1] }}
+                            transition={{ repeat: Infinity, duration: 2 }}
+                            className="bg-primary text-white px-8 py-4 rounded-full font-medium hover:bg-primary/90 shadow-xl shadow-primary/20"
+                        >
+                            Reserve My Bliss
+                        </motion.a>
                         <a href="#services" className="bg-white text-dark border border-dark/10 px-8 py-4 rounded-full font-medium hover:bg-dark/5 transition-colors">
                             View Services
                         </a>
