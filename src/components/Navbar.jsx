@@ -23,7 +23,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'}`}>
+        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-white/90 md:bg-transparent py-4 md:py-6'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <a href="#" className="text-2xl font-serif font-bold text-dark tracking-wide">
                     Shift Spa <span className="text-primary">.</span>

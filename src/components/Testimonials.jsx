@@ -6,19 +6,19 @@ const reviews = [
     {
         name: "Sarah Jenkins",
         rating: 5,
-        text: "Absolutely amazing experience! The therapist was professional and the massage was exactly what I needed after a long week. Highly recommend.",
+        text: "A truly transformative experience. The therapist created a serene spa atmosphere right in my living room. I felt completely rejuvenated.",
         location: "Indiranagar"
     },
     {
         name: "Priya Patel",
         rating: 5,
-        text: "I was a bit hesitant at first, but the safety protocols and professionalism put me completely at ease. The service quality is top-notch.",
+        text: "I was hesitant about a home service, but the professionalism and safety checks were impeccable. I could finally relax and let go of all my stress.",
         location: "Koramangala"
     },
     {
         name: "Emily Wong",
         rating: 5,
-        text: "Convenience at its best. Having a spa day at home is a game changer. The oils used smelled divine!",
+        text: "Pure bliss! The convenience of not driving home after a massage is a luxury in itself. The aromatic oils they use are absolutely divine.",
         location: "Whitefield"
     }
 ];

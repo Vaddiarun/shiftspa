@@ -7,37 +7,37 @@ const services = [
         title: "Swedish Massage",
         price: "₹1,999",
         duration: "60 mins",
-        description: "A gentle, relaxing full-body massage that improves circulation and relieves muscle tension."
+        description: "Drift into relaxation with long, gliding strokes and aromatic oils that soothe the senses and improve circulation."
     },
     {
         title: "Deep Tissue",
         price: "₹2,499",
         duration: "60 mins",
-        description: "Targeted pressure to release chronic muscle tension and knots. Ideal for active individuals."
+        description: "Intense relief for tired muscles. Targeted pressure melts away chronic tension and knots, restoring your body's natural balance."
     },
     {
         title: "Aromatherapy",
         price: "₹2,299",
         duration: "60 mins",
-        description: "Therapeutic massage using essential oils to enhance physical and emotional well-being."
+        description: "A sensory journey using premium essential oils. Let the calming scents and gentle touch elevate your physical and emotional well-being."
     },
     {
         title: "Head, Neck & Shoulder",
         price: "₹999",
         duration: "45 mins",
-        description: "Focused relief for upper body tension, perfect for desk workers and stress relief."
+        description: "Instant relief for stress. Focused attention on the upper body dissolves tension, perfect for unwinding after a long day."
     },
     {
         title: "Foot Reflexology",
         price: "₹899",
         duration: "45 mins",
-        description: "Pressure point massage for feet that restores energy flow and promotes relaxation."
+        description: "Revitalize from the ground up. Ancient pressure point techniques restore energy flow and leave you walking on air."
     },
     {
         title: "Shift Signature",
         price: "₹2,999",
         duration: "90 mins",
-        description: "Our ultimate pampering experience combining Swedish and Aromatherapy techniques."
+        description: "The ultimate indulgence. A bespoke fusion of Swedish and Aromatherapy techniques for complete mind-body rejuvenation."
     }
 ];
 

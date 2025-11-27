@@ -7,8 +7,8 @@ const Hero = () => {
     const y2 = useTransform(scrollY, [0, 500], [0, -100]);
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-secondary/30 to-white">
-            <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <section id="home" className="relative min-h-screen flex items-start md:items-center overflow-hidden bg-gradient-to-br from-secondary/30 to-white pt-32 pb-12 md:py-0">
+            <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
 
                 {/* Text Content */}
                 <motion.div
@@ -21,7 +21,7 @@ const Hero = () => {
                         transition={{ delay: 0.2 }}
                         className="text-primary font-medium tracking-widest uppercase text-sm mb-4 block"
                     >
-                        Luxury Home Spa
+                        Your Private Sanctuary
                     </motion.span>
 
                     <motion.h1
@@ -30,9 +30,9 @@ const Hero = () => {
                         transition={{ delay: 0.4 }}
                         className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-dark leading-tight mb-6"
                     >
-                        Relax at Home <br />
+                        Indulge in <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-yellow-600">
-                            In Pure Bliss
+                            Pure Bliss
                         </span>
                     </motion.h1>
 
@@ -42,7 +42,7 @@ const Hero = () => {
                         transition={{ delay: 0.6 }}
                         className="text-lg text-dark/70 mb-8 max-w-lg leading-relaxed"
                     >
-                        Premium doorstep spa services for women. Professional male therapists bringing the complete spa experience to your sanctuary.
+                        Transform your home into a haven of relaxation. Experience the luxury of professional spa therapies, delivered to your doorstep with absolute privacy and care.
                     </motion.p>
 
                     <motion.div

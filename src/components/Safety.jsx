@@ -26,9 +26,9 @@ const Safety = () => {
                         className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:border-primary/50 transition-colors"
                     >
                         <Shield size={40} className="text-primary mb-6" />
-                        <h3 className="text-xl font-bold mb-4">Strictly Professional</h3>
+                        <h3 className="text-xl font-bold mb-4">Professional Integrity</h3>
                         <p className="text-white/60 leading-relaxed">
-                            Our services are purely therapeutic. We maintain a zero-tolerance policy towards any misconduct, ensuring a respectful environment.
+                            Our therapists are strictly professionals focused solely on your wellness. We uphold a zero-tolerance policy to ensure a safe, respectful, and therapeutic environment.
                         </p>
                     </motion.div>
 
@@ -40,9 +40,9 @@ const Safety = () => {
                         className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:border-primary/50 transition-colors"
                     >
                         <UserCheck size={40} className="text-primary mb-6" />
-                        <h3 className="text-xl font-bold mb-4">Verified Therapists</h3>
+                        <h3 className="text-xl font-bold mb-4">Verified & Vetted</h3>
                         <p className="text-white/60 leading-relaxed">
-                            Every therapist undergoes rigorous background checks, identity verification, and professional certification reviews.
+                            Every therapist undergoes comprehensive background checks and certification verification. We prioritize your safety by ensuring only trusted professionals enter your home.
                         </p>
                     </motion.div>
 
@@ -54,9 +54,9 @@ const Safety = () => {
                         className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:border-primary/50 transition-colors"
                     >
                         <PhoneCall size={40} className="text-primary mb-6" />
-                        <h3 className="text-xl font-bold mb-4">Secure Booking</h3>
+                        <h3 className="text-xl font-bold mb-4">Transparent Process</h3>
                         <p className="text-white/60 leading-relaxed">
-                            All bookings are confirmed via call/WhatsApp. We share therapist details prior to arrival for your safety check.
+                            Peace of mind starts before the doorbell rings. We share your therapist's profile and details upon booking confirmation, so you know exactly who to expect.
                         </p>
                     </motion.div>
                 </div>
